@@ -6,8 +6,8 @@ A one-commit spike at running bare-metal Rust on the LEGO SPIKE Prime hub, which
 built around an STM32F413. The idea was to see whether we could get off MicroPython
 and PyBricks and onto something with real types and a real compiler.
 
-What is actually here is the stock `cortex-m-quickstart` scaffolding — a blinky that
-toggles PA5 on a Nucleo board — plus a `memory.x` and a `.cargo/config.toml` pointed at
+What is actually here is the stock `cortex-m-quickstart` scaffolding: a blinky that
+toggles PA5 on a Nucleo board, plus a `memory.x` and a `.cargo/config.toml` pointed at
 an STM32F4 target. Nothing LEGO-specific was ever written. No hub peripherals, no motor
 or sensor drivers, no way to load it onto a hub.
 
